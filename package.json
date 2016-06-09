@@ -1,0 +1,67 @@
+{
+  "name": "kal-dep-gulp-tasks",
+  "version": "0.0.1",
+  "description": "Gulp tasks definitions",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "reinstall": "rm -rf node_modules && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/kentandlime/kal-dep-gulp-tasks.git"
+  },
+  "contributors": [
+    {
+      "name": "Jai Chopra",
+      "email": "jaichopra@kentandlime.com.au"
+    },
+    {
+      "name": "Nicholas Tong",
+      "email": "nicktong@kentandlime.com.au"
+    },
+    {
+      "name": "Mikhail Asavkin",
+      "email": "mikhail@kentandlime.com.au"
+    },
+    {
+      "name": "Paul Pagnan",
+      "email": "paul@kentandlime.com.au"
+    },
+    {
+      "name": "Pranav More",
+      "email": "pranav@kentandlime.com.au"
+    }
+  ],
+  "author": "Kent and Lime Engineering <engineering.kentandlime.com.au>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kentandlime/kal-dep-gulp-tasks#readme",
+  "publishConfig": {
+    "registry": "http://npm.kentandlime.com.au:4873"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-if": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-newer": "^1.2.0",
+    "gulp-node-inspector": "^0.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sequence": "^0.4.5",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-spawn-mocha": "^2.2.2",
+    "gulp-tap": "^0.1.3",
+    "gulp-typescript": "^2.13.6",
+    "merge2": "^1.0.2",
+    "node-notifier": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
+}

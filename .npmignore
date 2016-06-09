@@ -1,0 +1,9 @@
+src
+.npmrc
+.npmignore
+.eslintrc
+.gitignore
+.babelrc
+typings
+coverage
+tests-xunit.xml
