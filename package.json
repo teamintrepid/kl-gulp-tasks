@@ -1,6 +1,6 @@
 {
   "name": "kal-dep-gulp-tasks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp tasks definitions",
   "main": "lib/index.js",
   "scripts": {
@@ -40,7 +40,7 @@
     "registry": "http://npm.kentandlime.com.au:4873"
   },
   "dependencies": {
-     "gulp": "^3.9.1",
+    "gulp": "^3.9.1",
     "gulp-add-src": "^0.2.0",
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
