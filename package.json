@@ -40,15 +40,17 @@
     "registry": "http://npm.kentandlime.com.au:4873"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
+     "gulp": "^3.9.1",
     "gulp-add-src": "^0.2.0",
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
+    "gulp-filter": "^4.0.0",
     "gulp-if": "^2.0.1",
+    "gulp-istanbul": "^1.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-newer": "^1.2.0",
-    "gulp-nodemon": "^2.1.0",
     "gulp-node-inspector": "^0.1.0",
+    "gulp-nodemon": "^2.1.0",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sequence": "^0.4.5",
@@ -58,7 +60,8 @@
     "gulp-typescript": "^2.13.6",
     "gulp-watch": "^4.3.6",
     "merge2": "^1.0.2",
-    "node-notifier": "^4.6.0"
+    "node-notifier": "^4.6.0",
+    "remap-istanbul": "^0.6.4"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
