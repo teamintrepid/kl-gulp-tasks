@@ -60,6 +60,7 @@
     "gulp-typescript": "^2.13.6",
     "gulp-watch": "^4.3.6",
     "merge2": "^1.0.2",
+    "mocha-jenkins-reporter": "^0.2.2",
     "node-notifier": "^4.6.0",
     "remap-istanbul": "^0.6.4"
   },
