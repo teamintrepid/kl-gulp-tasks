@@ -1,6 +1,6 @@
 {
   "name": "kal-dep-gulp-tasks",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Gulp tasks definitions",
   "main": "lib/index.js",
   "scripts": {
