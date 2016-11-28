@@ -1,5 +1,5 @@
 {
-  "name": "kal-dep-gulp-tasks",
+  "name": "kl-gulp-tasks",
   "version": "0.3.2",
   "description": "Gulp tasks definitions",
   "main": "lib/index.js",
@@ -9,36 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/kentandlime/kal-dep-gulp-tasks.git"
+    "url": "https://github.com/kentandlime/kl-gulp-tasks"
   },
   "contributors": [
     {
-      "name": "Jai Chopra",
-      "email": "jaichopra@kentandlime.com.au"
-    },
-    {
-      "name": "Nicholas Tong",
-      "email": "nicktong@kentandlime.com.au"
-    },
-    {
       "name": "Mikhail Asavkin",
       "email": "mikhail@kentandlime.com.au"
-    },
-    {
-      "name": "Paul Pagnan",
-      "email": "paul@kentandlime.com.au"
-    },
-    {
-      "name": "Pranav More",
-      "email": "pranav@kentandlime.com.au"
     }
   ],
-  "author": "Kent and Lime Engineering <engineering.kentandlime.com.au>",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/kentandlime/kal-dep-gulp-tasks#readme",
-  "publishConfig": {
-    "registry": "http://npm.kentandlime.com.au:4873"
-  },
+  "author": "Mikhail Asavkin <mikhail@kentandlime.com.au>",
+  "license": "MIT",
+  "homepage": "https://github.com/kentandlime/kl-gulp-tasks",
   "dependencies": {
     "clone": "^1.0.2",
     "gulp": "^3.9.1",
