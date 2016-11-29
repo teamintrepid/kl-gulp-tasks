@@ -25,7 +25,7 @@ This set of tasks made our development environment much more comfortable allowin
 2. create a file `gulpfile.js` at the project root
   * for ES6/ES7 projects
   ```javascript
-require('kal-dep-gulp-tasks').loadTasks(
+require('kl-gulp-tasks').loadTasks(
   {
     // application start point (optional)
     startEndpoint: '/server.js',
@@ -37,7 +37,7 @@ require('kal-dep-gulp-tasks').loadTasks(
 ```
   * for Typescript projects
   ```javascript
-require('kal-dep-gulp-tasks').loadTasks(
+require('kl-gulp-tasks').loadTasks(
   {
     // application start point (optional)
     startEndpoint: '/server.js',
@@ -47,7 +47,7 @@ require('kal-dep-gulp-tasks').loadTasks(
     source: 'src/**/*.ts',
   }); 
 ```
-3. Start your Typescript or ES7 incremental compilation `gulp js-run-build`
+Start your Typescript or ES7 incremental compilation `gulp js-run-build`
 
 ## Main tasks:
 * Incremental compilation: **js-run-build** for ES6/7  or **ts-run-build** for Typescript
