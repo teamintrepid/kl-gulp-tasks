@@ -1,12 +1,13 @@
 # Gentlemen's gulp task kit
 A set of gulp tasks that simplify development environment for ES6-7 and Typescript.
 This is rather opinionated set of tasks that significantly speeds up the development at Kent and Lime.
-At Kent and Lime we have many micro services and 20+ different modules those services depend. 
+
+At Kent and Lime we have many micro services and 20+ different modules those services depend on. 
 Module development was very time consuming because in order to test how the changes we just made in sub-sub dependency
-would affect application we had to recompile the module from scratch and `npm install` it to the app, then restart the app itself.
+would affect application, we had to recompile the module from scratch and `npm install` it to the app, then restart the app itself.
 This set of tasks made our development environment much more comfortable allowing us to spend more time perfecting our product.
 
-##Features:
+## Features:
 * incremental compilation for pipeline Typescript -> ES6 -> ES5 or ES7 -> ES5: now you don't have to wait until the project compiles again after that tiny fix you made.
 * end to end source mapping: now your stack traces will point to the source code.
 * `npm link` support for dependent modules autodiscovery: e.g. your dev server will be relaunched automatically if some if it's dependencies have been updated and recompiled.
