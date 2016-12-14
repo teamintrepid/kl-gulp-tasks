@@ -17,8 +17,8 @@ This set of tasks made our development environment much more comfortable allowin
 ## Current limitations
 * Only Mocha test runner is supported
 * Only Istanbul coverage provider is supported
-* Built-in Typescript (1.8.10) compiler is used
 * Mixed source (e.g. Typescript + ES7) projects are **not supported**
+* ~~Built-in Typescript (1.8.10) compiler is used~~ starting 0.3.6 you can set your own typescript in `loadTasks` method (see below)
 
 ## Getting started
 1. `npm install gulp kl-gulp-tasks --save-dev`
@@ -33,7 +33,9 @@ require('kl-gulp-tasks').loadTasks(
     testEndpoint: '/test/index.js',
     // source glob to watch and compile
     source: 'src/**/*.js',
-  }); 
+    // you can bring your own typescript version
+    typescript: require('typescript'),
+  });
 ```
   * for Typescript projects
   ```javascript
