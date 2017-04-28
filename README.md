@@ -33,8 +33,6 @@ require('kl-gulp-tasks').loadTasks(
     testEndpoint: '/test/index.js',
     // source glob to watch and compile
     source: 'src/**/*.js',
-    // you can bring your own typescript version
-    typescript: require('typescript'),
   });
 ```
   * for Typescript projects
@@ -47,6 +45,8 @@ require('kl-gulp-tasks').loadTasks(
     testEndpoint: '/test/index.js',
     // source glob to watch and compile
     source: 'src/**/*.ts',
+    // you can bring your own typescript version
+    typescript: require('typescript'),
   }); 
 ```
 Start your Typescript or ES7 incremental compilation `gulp js-run-build`
